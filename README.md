@@ -2,18 +2,24 @@
 course on udemy => Build an app with ASPNET Core and Angular from scratch 
 
 # 1-initial commit
-- dotnet project created
-- angular project created
-- CodeFirst db created and retrieved data from sql
+  => dotnet webapi oluşturuldu
+  => dotnet new webapi -o DatingApp.API -n DatingApp.API
+  => vs code extension'ları kuruldu
+  => ControllerBase, MVC controller without view support | Controller, MVC controller with view support and advantage of the auto binding
+  => [ApiController] kullanılan controller için 'Automatic model state validation' ve 'Automatic inferring of parameter binding' ([FromBody] kullanıma gerek kalmıyor). Ayrıca ApiControllerAttribute oldukça esnek şekilde customize edilebiliyor. İstenilen özellikler enable-disable edilebiliyor. (ApiBehaviorOptions)
+  => dotnet run - dotnet watch run
+  => CodeFirst db oluşturuldu. DbContext'ten kalıtım alarak entityler oluşturuldu. ConfigureServices metoduna DbContext eklendi. (dotnet ef migrations add MigrationName) (dotnet ef database update)
+  => angular projesi @angular/cli ile oluşturuldu. (ng new DatingApp-SPA)
+  => ng serve ile client yayınlandı
 
 # 2-authController added
-- debugging used on vscode
-- AuthController added and used dependency injection
-- register and login methods created with jwt
-
+  => Password şifreli bir şekilde jwt kullanılarak db ye kayıt edilir yapıldı.
+  => Repository pattern implemente edildi
+  => Register, login metodları yazıldı
+  => Authentication middleware oluşturuldu. 
+  
 # 3-client side login register
-- used bootstrap for navbar
-- created template forms and used input/form states
-- used angular services in components
-- used *ngIf, *ngFor
-- used @Input, @Output for communcation between child and parent component
+  => Bootstap kullanılarak navbar oluşturuldu. (https://getbootstrap.com/docs/4.1/examples/)
+  => Template form kullanıldı ve input/form state'leri incelendi. *ngIf, *ngFor kullanıldı
+  => Angular servisleri kullanıldı 
+  => Komponentler arası veri iletişimi yapıldı. parent/child şeklinde (@Input, @Output)
