@@ -2,7 +2,7 @@
 course on udemy => Build an app with ASPNET Core and Angular from scratch 
 
 # 1-initial commit
-  => dotnet webapi oluşturuldu
+  => dotnet webapi oluşturuldu <br />
   => dotnet new webapi -o DatingApp.API -n DatingApp.API
   => vs code extension'ları kuruldu
   => ControllerBase, MVC controller without view support | Controller, MVC controller with view support and advantage of the auto binding
