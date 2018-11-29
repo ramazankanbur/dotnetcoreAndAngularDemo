@@ -25,7 +25,7 @@ course on udemy => Build an app with ASPNET Core and Angular from scratch
   => Komponentler arası veri iletişimi yapıldı. parent/child şeklinde (@Input, @Output)<br />
 
 # 4-error handling
-  => Api'de http request pipeline'ına exception handler eklendi ve hata için response header düzenlendi
+  => Api'de http request pipeline'ına exception handler eklendi ve hata için response header düzenlendi<br />
   => Angular tarafında error interceptor eklendi, server response header'ına yanıtına göre client hata mesajını gösterebilir yapıldı
   
   
