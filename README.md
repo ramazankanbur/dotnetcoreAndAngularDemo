@@ -23,3 +23,9 @@ course on udemy => Build an app with ASPNET Core and Angular from scratch
   => Template form kullanıldı ve input/form state'leri incelendi. *ngIf, *ngFor kullanıldı<br />
   => Angular servisleri kullanıldı <br />
   => Komponentler arası veri iletişimi yapıldı. parent/child şeklinde (@Input, @Output)<br />
+
+# 4-error handling
+  => Api'de http request pipeline'ına exception handler eklendi ve hata için response header düzenlendi
+  => Angular tarafında error interceptor eklendi, server response header'ına yanıtına göre client hata mesajını gösterebilir yapıldı
+  
+  
