@@ -33,3 +33,6 @@ course on udemy => Build an app with ASPNET Core and Angular from scratch
   => angular JWT, (angular2-jwt) jwtHelper kullanılarak kullanıcı bilgiler token'dan decode edildi. app.component seviyesinde kullanıldı.<br />
   => ngx bootstrap kullanıldı. jquery olmaksızın bootstrap kullanımına olanak sağlar. (https://valor-software.com/ngx-bootstrap/?gclid=Cj0KCQiAoo7gBRDuARIsANeJKUZ0QnZPDDNlNa7NG8aHnn-c5-MRbLgnu90-ekriSP5LoQhcu_wPsSQaAoCyEALw_wcB#/dropdowns) <br />
   => bootswatch ile tema değişiklikliği uygulandı. (https://bootswatch.com/united/)
+
+# 6-routers added
+  => route guard eklendi. login olmadan bazı sayfalara erişim engellendi
