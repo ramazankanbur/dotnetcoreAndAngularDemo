@@ -28,4 +28,8 @@ course on udemy => Build an app with ASPNET Core and Angular from scratch
   => Api'de http request pipeline'ına exception handler eklendi ve hata için response header düzenlendi<br />
   => Angular tarafında error interceptor eklendi, server response header'ına yanıtına göre client hata mesajını gösterebilir yapıldı
   
-  
+# 5-adding third party components
+  => alertifyjs bildirim kütüphanesi angular servis olarak eklendi. <br />
+  => angular JWT, (angular2-jwt) jwtHelper kullanılarak kullanıcı bilgiler token'dan decode edildi. app.component seviyesinde kullanıldı.<br />
+  => ngx bootstrap kullanıldı. (https://valor-software.com/ngx-bootstrap/?gclid=Cj0KCQiAoo7gBRDuARIsANeJKUZ0QnZPDDNlNa7NG8aHnn-c5-MRbLgnu90-ekriSP5LoQhcu_wPsSQaAoCyEALw_wcB#/dropdowns) <br />
+  => bootswatch ile tema değişiklikliği uygulandı. (https://bootswatch.com/united/)
