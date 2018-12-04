@@ -36,3 +36,8 @@ course on udemy => Build an app with ASPNET Core and Angular from scratch
 
 # 6-routers added
   => route guard eklendi. login olmadan bazı sayfalara erişim engellendi
+
+# 7-extending api
+  => Kullanıcı sınıfına yeni prop'lar eklendi ve seed data oluşturularak db'ye eklendi (https://www.json-generator.com/)
+  => AutoMapper nugetten indirildi ve kullanıcı listeleme ve detay sayfalarının dto maplemeleri için kullanıldı.
+  
